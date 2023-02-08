@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "../components/Nav";
-import Newbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import Newbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Whatwedo from "../components/Whatwedo";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       {/* <Nav /> */}
       <Newbar />
       <Hero />
+      <Whatwedo />
     </>
   );
 }
