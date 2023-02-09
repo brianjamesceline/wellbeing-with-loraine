@@ -2,14 +2,17 @@ import React from "react";
 import Newbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Whatwedo from "../components/Whatwedo";
+import Quote1 from "../components/Quote1";
+import Mindset from "../components/Mindset"
 
 export default function Home() {
   return (
     <>
-      {/* <Nav /> */}
       <Newbar />
       <Hero />
       <Whatwedo />
+      <Quote1 />
+      <Mindset />
     </>
   );
 }

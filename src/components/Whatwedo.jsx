@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Whatwedo() {
   return (
-    <div className=" ml-10 mr-10 mb-[100px] pl-5 pr-5">
+    <div className="ml-10 mr-10 mb-2 pl-5 pr-5">
       <div className="mt-[160px] mb-5 font-montserrat font-regular text-[36px] text-center text-slate ">
         What we do?
       </div>
@@ -13,7 +13,7 @@ export default function Whatwedo() {
         experience happiness in your work environment including outside of work
         and successfully manage your emotions at the same time.
       </p>
-      <div className="flex justify-between pl-5 pr-5 font-montserrat font-light text-center text-[16px] uppercase text-slate ">
+      <div className="mb-20 flex justify-between pl-5 pr-5 font-montserrat font-light text-center text-[16px] uppercase text-slate ">
         <div className="">
           <img src="/images/ind-consultation.jpg"></img>
           <>Individual Consultation</>
