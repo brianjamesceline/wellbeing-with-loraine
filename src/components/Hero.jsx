@@ -19,7 +19,7 @@ export default function Herofront() {
         <div>
           <button
             type="button"
-            class="absolute right-0 mt-5 text-jade bg-white border border-jade focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-montserrat rounded-lg text-[30px] px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+            class="absolute right-5 mt-5 text-jade bg-white border border-jade focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-montserrat rounded-lg text-[30px] px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
           >
             Schedule a Call
           </button>
