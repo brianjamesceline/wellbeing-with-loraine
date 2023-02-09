@@ -11,6 +11,7 @@ module.exports = {
         jade: "#55BD92",
         slate: "#53565A",
         tan: "#ED895B",
+        black: "#000000",
       },
     },
   },
