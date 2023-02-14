@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Newbar />
-      {/* <Hero /> */}
+      <Hero />
       <Whatwedo />
       <Quote1 />
       {/* <Mindset /> */}
