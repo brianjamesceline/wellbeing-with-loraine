@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Whatwedo() {
   return (
-    <div className=" border border-red bg-white text-slate">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:py-16">
-        <h2 className=" border border-blue-700 mb-4 text-4xl tracking-tight font-montserrat font-regular italic text-center">
+    <div className=" bg-white text-slate">
+      <div className="py-2 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:py-16">
+        <h2 className=" mb-2 text-4xl tracking-tight font-montserrat font-regular italic text-center">
           What we do?
         </h2>
-        <p className=" flex border border-red font-light text-slate sm:text-lg md:px-20 lg:px-28 xl:px-48 text-left">
+        <p className=" flex font-light text-slate sm:text-lg md:px-20 lg:px-28 xl:px-48 text-left">
           At Wellbeing with Loraine, we coach and inspire you to positively use
           your mindset, a growth mindset to help you achieve a lifestyle,
           whereby you prioritise yourself. We coach you to continuously feel
