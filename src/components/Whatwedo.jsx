@@ -15,7 +15,7 @@ export default function Whatwedo() {
           outside of work and successfully manage your emotions at the same
           time.
         </p>
-        <div className=" gap-4 mt-8 sm:grid sm:grid-cols-2 sm:mt-12">
+        <div className=" gap-4 mt-8 mb-10 sm:grid sm:grid-cols-2 sm:mt-12">
           <center>
             <img
               className="col-span-2 mb-2 sm:mb-0 rounded-lg"

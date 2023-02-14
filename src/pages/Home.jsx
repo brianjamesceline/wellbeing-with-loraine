@@ -13,8 +13,8 @@ export default function Home() {
       <Hero />
       <Whatwedo />
       <Quote1 />
-      {/* <Mindset /> */}
-      {/* <Success /> */}
+      <Mindset />
+      <Success />
     </>
   );
 }
