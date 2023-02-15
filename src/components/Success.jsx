@@ -6,26 +6,74 @@ export default function Success() {
       <div className="mb-5 font-montserrat font-light text-[36px] text-center text-jade">
         Success Stories...
       </div>
-      <div className="ml-5 mr-5 font-montserrat font-light text-[18px] text-left text-slate">
-        <div className="border border-emerald-500 m-5 p-5 rounded-lg">
-          <p>''</p>
-          <p>
+      <div className="ml-5 mr-5 ">
+        <div className="border border-emerald-500 m-5 pl-5 pt-5 pr-5 pb-5 rounded-lg">
+          <div>
+            <p className="text-[56px] mb-0">''</p>
+          </div>
+          <p className="font-montserrat font-light text-[18px] text-left text-slate">
             I have seen, for the first time ever, groups having positive and
             open discussions about mental health as a result of the partnership
-            with I Am Here. The bigger out support network, the better.
+            with I Am Here. The bigger our support network, the better.
           </p>
+          <div>
+            <p className="text-[56px] mb-0 text-right">''</p>
+          </div>
+          <div>
+            <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
+              Arthur Melo
+            </h2>
+            <p class="text-xs font-normal text-jade">Francis Banducci</p>
+          </div>
         </div>
-        <div className="mb-5 pl-10 pr-10">
-          I have seen, for the first time ever, groups having positive and open
-          discussions about mental health as a result of the partnership with I
-          Am Here. The bigger out support network, the better.
+        <div className="border border-emerald-500 m-5 p-5 rounded-lg">
+          <div>
+            <p className="text-[56px] mb-0">''</p>
+          </div>
+          <p className="font-montserrat font-light text-[18px] text-left text-slate">
+            I have seen, for the first time ever, groups having positive and
+            open discussions about mental health as a result of the partnership
+            with I Am Here. The bigger our support network, the better.
+          </p>
+          <div>
+            <p className="text-[56px] mb-0 text-right">''</p>
+          </div>
+          <div>
+            <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
+              Arthur Melo
+            </h2>
+            <p class="text-xs font-normal text-jade">Francis Banducci</p>
+          </div>
         </div>
-        <div className="mb-10 pl-10 pr-10 box-border">
-          I have seen, for the first time ever, groups having positive and open
-          discussions about mental health as a result of the partnership with I
-          Am Here. The bigger out support network, the better.
+        <div className="border border-emerald-500 m-5 p-5 rounded-lg">
+          <div>
+            <p className="text-[56px] mb-0">''</p>
+          </div>
+          <p className="font-montserrat font-light text-[18px] text-left text-slate">
+            I have seen, for the first time ever, groups having positive and
+            open discussions about mental health as a result of the partnership
+            with I Am Here. The bigger our support network, the better.
+          </p>
+          <div>
+            <p className="text-[56px] mb-0 text-right">''</p>
+          </div>
+          <div>
+            <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
+              Arthur Melo
+            </h2>
+            <p class="text-xs font-normal text-jade">Francis Banducci</p>
+          </div>
+        </div>
+        <div className="flex justify-center mb-10">
+          <button
+            type="button"
+            class="mr-3 mb-0 text-jade bg-white border border-jade font-montserrat rounded-lg text-[18px] px-5 py-2.5"
+          >
+            See More Stories
+          </button>
         </div>
       </div>
+      <hr class="h-px my-8 dark:text-slate "></hr>
     </div>
   );
 }

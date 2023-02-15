@@ -5,6 +5,7 @@ import Whatwedo from "../components/Whatwedo";
 import Quote1 from "../components/Quote1";
 import Mindset from "../components/Mindset";
 import Success from "../components/Success";
+import Schedule from '../components/Schedule';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Quote1 />
       <Mindset />
       <Success />
+      <Schedule />
     </>
   );
 }
