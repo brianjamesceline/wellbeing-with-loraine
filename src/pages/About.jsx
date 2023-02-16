@@ -1,10 +1,10 @@
 import React from "react";
-import Aboutinfo from "../components/Aboutinfo";
+import Lor_info from "../components/Lor_info";
 
-export default function Aboutinfo() {
+export default function About() {
   return (
     <>
-      <About />
+      <Lor_info />
     </>
   );
 }

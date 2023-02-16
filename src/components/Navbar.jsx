@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Dropdown, Avatar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 
 export default function Newbar() {
   return (
@@ -11,43 +11,18 @@ export default function Newbar() {
           Wellbeing with Loraine
         </span>
       </Navbar.Brand>
-      {/* <div className="flex md:order-2"> */}
-      {/* <Dropdown
-        arrowIcon={false}
-        inline={true}
-        label={
-          <Avatar
-            alt="User settings"
-            img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
-            rounded={true}
-          />
-        }
-      >
-        <Dropdown.Header>
-          <span className="block text-sm">Bonnie Green</span>
-          <span className="block truncate text-sm font-medium">
-            name@flowbite.com
-          </span>
-        </Dropdown.Header>
-        <Dropdown.Item>Dashboard</Dropdown.Item>
-        <Dropdown.Item>Settings</Dropdown.Item>
-        <Dropdown.Item>Earnings</Dropdown.Item>
-        <Dropdown.Divider />
-        <Dropdown.Item>Sign out</Dropdown.Item>
-      </Dropdown> */}
 
-      {/* </div> */}
       <Navbar.Collapse className="pr-5 text-[18px] font-montserrat font-extrabold">
-        <Navbar.Link href="/navbars" active={true}>
+        <Navbar.Link href="/Home" active={true}>
           Home
         </Navbar.Link>
-        <Navbar.Link href="/navbars">About</Navbar.Link>
-        <Navbar.Link href="/navbars">Individual</Navbar.Link>
-        <Navbar.Link href="/navbars">Corporate</Navbar.Link>
-        <Navbar.Link href="/navbars">Health & Fitness</Navbar.Link>
-        <Navbar.Link href="/navbars">How I Work</Navbar.Link>
-        <Navbar.Link href="/navbars">Testimonials</Navbar.Link>
-        <Navbar.Link href="/navbars">Contact</Navbar.Link>
+        <Navbar.Link href="/About">About</Navbar.Link>
+        <Navbar.Link href="/Individual">Individual</Navbar.Link>
+        <Navbar.Link href="/Corporate">Corporate</Navbar.Link>
+        <Navbar.Link href="/Health&Fitness">Health & Fitness</Navbar.Link>
+        <Navbar.Link href="/HowIWork">How I Work</Navbar.Link>
+        <Navbar.Link href="/Testimonials">Testimonials</Navbar.Link>
+        <Navbar.Link href="/Contact">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
