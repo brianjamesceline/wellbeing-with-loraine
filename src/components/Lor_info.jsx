@@ -104,6 +104,7 @@ export default function Lor_info() {
           <img className="w-[700px]" src="/images/quote_tree.jpg" />
         </div>
       </div>
+      <hr class="h-px my-8 dark:text-slate"></hr>
     </div>
   );
 }
