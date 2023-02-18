@@ -5,7 +5,7 @@ export default function Newbar() {
   return (
     <Navbar fluid={true} rounded={true}>
       <Navbar.Toggle />
-      <Navbar.Brand className="pl-5">
+      <Navbar.Brand className="pl-3 pr-3">
         <img src="/images/logo.jpg" className="mr-5 h-6 sm:h-9" alt="Logo" />
         <span className="self-center whitespace-nowrap text-[20px] font-montserrat dark:text-white">
           Wellbeing with Loraine

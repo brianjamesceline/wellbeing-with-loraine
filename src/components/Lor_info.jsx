@@ -3,7 +3,7 @@ import React from "react";
 export default function Lor_info() {
   return (
     <div>
-      <p className="border border-lime-500 ml-10 mr-10 mb-2 font-montserrat font-light text-sm text-slate">
+      <p className=" ml-10 mt-5 mr-10 mb-2 font-montserrat font-light text-sm text-slate">
         My name is Loraine, Health and Group Fitness Instructor and a Wellbeing
         Coach. I am passionate about helping my clients to get fit and healthy,
         so they look and feel great about themselves. I coach clients to make
@@ -12,10 +12,10 @@ export default function Lor_info() {
         assisting them to successfully create a healthy, happy, lifestyle and
         wellbeing; both personally and professionally.
       </p>
-      <div className="border border-lime-400 ml-10 mr-10 mb-2">
+      <div className=" ml-10 mr-10 mb-2">
         <img className="w-[700px]" src="/images/image_about.jpg" />
       </div>
-      <div className="border border-lime-500 ml-10 mr-10 mb-2 font-montserrat font-light text-sm text-slate">
+      <div className=" ml-10 mr-10 mb-2 font-montserrat font-light text-sm text-slate">
         <p className="mb-3">
           Sessions with my clients are based on trust, listening, understanding
           and offering a comfortable environment to encourage you to openly
@@ -100,6 +100,9 @@ export default function Lor_info() {
           good food, great conversation and a glass of Champagne. Life is for
           living! I’m grateful that I can laugh again.
         </p>
+        <div className="mb-10">
+          <img className="w-[700px]" src="/images/quote_tree.jpg" />
+        </div>
       </div>
     </div>
   );
