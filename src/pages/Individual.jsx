@@ -1,9 +1,17 @@
 import React from 'react';
-import Ind_Consultation from "../components/Ind_Consultation";
+import Newbar from '../components/Navbar';
+import Ind_Consultation from '../components/Ind_Consultation';
+import Schedule2 from '../components/Schedule2';
+import Footer from '../components/Footer';
 
 
 export default function Individual() {
   return (
-    <Individual />
-  )
+    <div>
+      <Newbar />
+      <Ind_Consultation />
+      <Schedule2 />
+      <Footer />
+    </div>
+  );
 }
