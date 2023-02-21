@@ -4,11 +4,11 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Individual from "./pages/Individual";
-import Corporate from './pages/Corporate';
-import Health from './pages/Health';
-import HowIWork from './pages/HowIWork';
-import Testimonials from './pages/Testimonials';
-import Contact from './pages/Contact';
+import Corporate from "./pages/Corporate";
+import Health from "./pages/Health";
+import HowIWork from "./pages/HowIWork";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/Individual" element={<Individual />} />
       <Route path="/Corporate" element={<Corporate />} />
-      <Route path="/Health" element={<Health />} />
+      <Route path="/Health&Fitness" element={<Health />} />
       <Route path="/HowIWork" element={<HowIWork />} />
       <Route path="/Testimonials" element={<Testimonials />} />
       <Route path="/Contact" element={<Contact />} />
