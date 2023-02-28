@@ -7,12 +7,12 @@ export default function Newbar() {
       <Navbar.Toggle />
       <Navbar.Brand className="pl-3 pr-3">
         <img src="/images/logo.jpg" className="mr-2 h-6 sm:h-9" alt="Logo" />
-        <span className="self-center whitespace-nowrap text-[20px] font-montserrat dark:text-white">
+        <span className="self-center whitespace-nowrap text-[18px] font-montserrat dark:text-white">
           Wellbeing with Loraine
         </span>
       </Navbar.Brand>
 
-      <Navbar.Collapse className="pr-5 text-[18px] font-montserrat font-extrabold">
+      <Navbar.Collapse className="pr-10 text-[17px] font-montserrat font-extrabold">
         <Navbar.Link href="/" active={true}>
           Home
         </Navbar.Link>

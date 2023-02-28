@@ -15,7 +15,7 @@ export default function Herofront() {
             </li>
           </div>
           <div className="">
-            <img className="w-[700px] mb-2" src="/images/image_loraine.jpg" />
+            <img className="w-[650px] mb-2" src="/images/image_loraine.jpg" />
           </div>
           <div className="flex justify-end">
             <button
