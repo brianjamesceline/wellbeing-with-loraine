@@ -7,9 +7,9 @@ export default function Success() {
         Success Stories...
       </div>
       <div className="ml-5 mr-5 ">
-        <div className="border border-emerald-500 m-5 pl-5 pt-5 pr-5 pb-5 rounded-lg">
+        <div className="box-content h-[350px] border border-emerald-500 pl-3 pt-0 pr-3 pb-0 rounded-lg">
           <div>
-            <p className="text-[56px] mb-0">''</p>
+            <img className="pt-8 pb-5" src="/images/Apostrophe1.jpg" />
           </div>
           <p className="font-montserrat font-light text-[18px] text-left text-slate">
             I have seen, for the first time ever, groups having positive and
@@ -17,7 +17,7 @@ export default function Success() {
             with I Am Here. The bigger our support network, the better.
           </p>
           <div>
-            <p className="text-[56px] mb-0 text-right">''</p>
+            <img className="pt-0 pb-5 align-right"  src="/images/Apostrophe2.jpg" />
           </div>
           <div>
             <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
