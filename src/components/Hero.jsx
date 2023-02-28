@@ -3,19 +3,10 @@ import React from "react";
 export default function Herofront() {
   return (
     <>
-      <div className="w-full">
-        <div className="">
-          <div className="ml-5 translate-y-96">
-            <li className="list-none uppercase text-[20px] font-montserrat font-medium text-jade ">
-              Wellbeing with
-            </li>
-
-            <li className=" list-none uppercase text-[30px] font-cinzel text-jade">
-              Loraine
-            </li>
-          </div>
+      <div>
+        <div>
           <div className="">
-            <img className="w-[650px] mb-2" src="/images/image_loraine.jpg" />
+            <img className="mb-3" src="/images/image_loraine.jpg" />
           </div>
           <div className="flex justify-end">
             <button
@@ -26,6 +17,14 @@ export default function Herofront() {
             </button>
           </div>
         </div>
+      </div>
+      <div className="ml-5 -translate-y-60">
+        <li className="list-none uppercase text-[20px] font-montserrat font-medium text-jade ">
+          Wellbeing with
+        </li>
+        <li className=" list-none uppercase text-[30px] font-cinzel text-jade">
+          Loraine
+        </li>
       </div>
     </>
   );

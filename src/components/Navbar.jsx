@@ -3,7 +3,7 @@ import { Navbar } from "flowbite-react";
 
 export default function Newbar() {
   return (
-    <Navbar fluid={true} rounded={true}>
+    <Navbar className="border border-red" fluid={true} rounded={true}>
       <Navbar.Toggle />
       <Navbar.Brand className="pl-3 pr-3">
         <img src="/images/logo.jpg" className="mr-2 h-6 sm:h-9" alt="Logo" />
