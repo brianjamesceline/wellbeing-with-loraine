@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Companies() {
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto">
       <p className="font-Montserrat text-lg text-center ml-5 mr-5 mb-5">
         Companies I have worked with...
       </p>

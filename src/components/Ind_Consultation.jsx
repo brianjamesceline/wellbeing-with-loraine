@@ -3,7 +3,7 @@ import React from "react";
 export default function Ind_Consultation() {
   return (
     <div>
-      <div className="ml-10 mr-10 mt-5">
+      <div className="ml-10 mr-10 mt-28">
         <h1 className="text-jade text-4xl mb-5">Individual Consultation</h1>
         <div className="text-slate text-sm mb-5">
           <p className="mb-2">

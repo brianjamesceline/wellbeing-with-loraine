@@ -15,10 +15,11 @@ export default function Whatwedo() {
           outside of work and successfully manage your emotions at the same
           time.
         </p>
-        <div className=" gap-4 mt-8 mb-10 sm:grid sm:grid-cols-2 sm:mt-12">
+        {/* <div className="gap-4 mt-8 mb-10 sm:grid sm:grid-cols-2 sm:mt-12"> */}
+        <div className="gap-4 mt-6 mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <center>
             <img
-              className="col-span-2 mb-2 sm:mb-0 rounded-lg"
+              className="col-span-1 mt-6 mb-2 rounded-lg"
               src="/images/ind-consultation.jpg"
               alt="content gallery 1"
             />
@@ -26,7 +27,7 @@ export default function Whatwedo() {
           </center>
           <center>
             <img
-              className="col-span-1 mb-2 mt-6 sm:block rounded-lg border border-slate-80"
+              className="col-span-2 mb-2 mt-6 sm:block rounded-lg border border-slate-80"
               src="/images/corporate.jpg"
               alt="content gallery 2"
             />
@@ -34,7 +35,7 @@ export default function Whatwedo() {
           </center>
           <center>
             <img
-              className="col-span-1 mb-2 mt-6 sm:block rounded-lg"
+              className="col-span-3 mb-2 mt-6 sm:block rounded-lg"
               src="/images/tailored-programmes.jpg"
               alt="content gallery 3"
             />
@@ -42,7 +43,7 @@ export default function Whatwedo() {
           </center>
           <center>
             <img
-              className="col-span-1 mt-6 sm:block rounded-lg"
+              className="col-span-4 mb-2 mt-6 sm:block rounded-lg"
               src="images/wellbeing-days.jpg"
               alt="content gallery 4"
             />

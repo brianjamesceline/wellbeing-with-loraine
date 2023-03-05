@@ -3,7 +3,7 @@ import React from "react";
 export default function Mindset() {
   return (
     <>
-      <div className="ml-5 mr-5 mb-20">
+      <div className="max-w-screen-xl mx-auto ml-10 mr-10 mb-20">
         <div className="">
           <div className=" font-montserrat text-[20px]">
             <h1 className="text-red font-normal pt-10 underline">Mindset</h1>

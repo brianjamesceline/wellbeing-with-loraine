@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Lor_info() {
   return (
-    <div>
-      <div className="ml-10 mr-10 mt-5">
+    <div className="max-w-screen-xl mx-auto">
+      <div className="ml-10 mr-10 mt-28">
         <h1 className=" text-jade text-4xl ">About me...</h1>
         <p className=" mt-5 mb-2 font-montserrat font-light text-sm text-slate">
           My name is Loraine, Health and Group Fitness Instructor and a
@@ -14,7 +14,7 @@ export default function Lor_info() {
           these changes whilst assisting them to successfully create a healthy,
           happy, lifestyle and wellbeing; both personally and professionally.
         </p>
-        <div className=" mb-2">
+        <div className="mb-2">
           <img className="w-[700px]" src="/images/image_about.jpg" />
         </div>
         <div className=" mb-2 font-montserrat font-light text-sm text-slate">
@@ -66,7 +66,9 @@ export default function Lor_info() {
             fire continues to burn bright and I still love helping clients get
             fit and healthy.
           </p>
-
+          <div className="mb-10">
+            <img className="w-[700px]" src="/images/quote_tree.jpg" />
+          </div>
           <p className="mb-3">
             After my Father’s passing in 2015 and then my brother passed away
             unexpectedly in 2019. My brother was my best friend, my soulmate. He
@@ -103,9 +105,6 @@ export default function Lor_info() {
             good food, great conversation and a glass of Champagne. Life is for
             living! I’m grateful that I can laugh again.
           </p>
-          <div className="mb-10">
-            <img className="w-[700px]" src="/images/quote_tree.jpg" />
-          </div>
         </div>
       </div>
       <hr class="h-px my-8 dark:text-slate"></hr>

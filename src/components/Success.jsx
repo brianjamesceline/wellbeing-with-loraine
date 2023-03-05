@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Success() {
   return (
-    <div>
-      <div className="ml-4 mr-4 mb-5 font-montserrat font-light text-[34px] text-center text-jade">
+    <div className="max-w-screen-xl mx-auto">
+      <div className=" ml-4 mr-4 mb-5 font-montserrat font-light text-[34px] text-center text-jade">
         Success Stories...
       </div>
-      <div className="flex flex-wrap justify-center ml-5 mr-5">
+      <div className="flex flex-wrap gap-4 justify-center ml-5 mr-5">
         <div className="box-content h-[320px] w-[250px] border border-emerald-500 mb-5 pl-3 pt-0 pr-3 pb-0 rounded-lg">
           <div>
             <img className="pt-5 pb-4" src="/images/Apostrophe1.jpg" />

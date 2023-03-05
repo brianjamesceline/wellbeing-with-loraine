@@ -2,7 +2,7 @@ import React from "react";
 
 export default function () {
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto">
       <p className="font-montserrat font-light text-[24px] text-center text-slate ml-5 mr-5 mb-0">
         CLAIM YOUR FREE 30 MINUTE SESSION.
       </p>

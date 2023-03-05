@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hours() {
   return (
-    <section className=" bg-jade mb-1 pb-5 font-montserrat">
+    <section className="max-w-screen-xl mx-auto bg-jade mb-1 pb-5 font-montserrat">
       <div>
         <div className="ml-6 mb-10 text-white">
           <p className="pt-5 pb-2 uppercase underline">Business Hours</p>
@@ -35,7 +35,6 @@ export default function Hours() {
               <li>Sunday</li>
               <li>Closed</li>
             </div>
-            
           </ul>
         </div>
         <address class="ml-6 mr-8 not-italic">
