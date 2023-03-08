@@ -3,7 +3,7 @@ import React from "react";
 export default function Lor_info() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-28">
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
         <h1 className=" text-jade text-4xl mb-10">About me...</h1>
         <div className="">
           <p className=" mt-5 mb-5">

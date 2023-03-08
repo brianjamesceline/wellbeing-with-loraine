@@ -3,7 +3,7 @@ import React from 'react'
 export default function HealthFood() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="mt-28 mr-5 ml-5">
+      <div className="mt-10 mr-5 ml-5">
         <h1 className="text-jade text-4xl mb-5">Health & Fitness</h1>
         <p className="mb-5 font-montserrat font-light text-lg text-slate">
           I exercise five days a week. I complete a 8-10k power walk and morning

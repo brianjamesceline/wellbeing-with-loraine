@@ -3,9 +3,9 @@ import React from "react";
 export default function Ind_Consultation() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="ml-5 mr-5 mt-28">
-        <div className="flex">
-          <h1 className="text-jade text-4xl ml-5 mt-40 mr-10 mb-10">
+      <div className="ml-5 mr-5 mt-10">
+        <div className="">
+          <h1 className="text-jade text-4xl ml-5 mr-10 mb-5">
             Individual Consultation
           </h1>
           <img
@@ -40,8 +40,10 @@ export default function Ind_Consultation() {
         </div>
         <div className=" text-slate text-sm text-center mb-5">
           <img className=" w-[700px] mb-0" src="/images/quote-mirror.jpg" />
-          <p>"Look in the mirror that's your competition"</p>
-          <p className="text-jade text-[12px]">John Assaraf</p>
+          <p className="text-lg">
+            "Look in the mirror that's your competition"
+          </p>
+          <p className="text-jade text-sm">John Assaraf</p>
         </div>
       </div>
       <hr class="h-px my-8 dark:text-slate"></hr>

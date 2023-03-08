@@ -9,10 +9,10 @@ export default function Herofront() {
               <img className="mb-0" src="/images/image_loraine.jpg" />
             </div>
             <div className="justify-center -translate-y-60">
-              <li className="list-none uppercase text-[20px] font-montserrat font-medium text-jade ">
+              <li className="list-none uppercase pl-6 text-[20px] font-montserrat font-medium text-jade ">
                 Wellbeing with
               </li>
-              <li className=" list-none uppercase text-[30px] font-cinzel text-jade">
+              <li className=" list-none uppercase pl-6 text-[30px] font-cinzel text-jade">
                 Loraine
               </li>
             </div>

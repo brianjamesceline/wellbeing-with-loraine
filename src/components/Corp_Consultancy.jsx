@@ -3,7 +3,7 @@ import React from 'react'
 export default function Corp_Consultancy() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="mr-5 ml-5 mt-28">
+      <div className="mr-5 ml-5 mt-10">
         <h1 className="text-jade text-4xl mb-5">Corporate Consultancy</h1>
         <img
           className="mb-3"
@@ -21,7 +21,7 @@ export default function Corp_Consultancy() {
           not hesitate to contact us.
         </p>
         <div className=" text-slate text-sm text-center mb-10">
-          <img className="w-[700px]" src="/images/Jim-Rohn.jpg" />
+          <img className="w-[700px] mb-5" src="/images/Jim-Rohn.jpg" />
           <div className="">
             <p className="justify-center items-center text-lg pl-5 pr-5">
               "Motivation is what gets you started. Habit is what keeps you

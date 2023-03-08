@@ -3,7 +3,7 @@ import React from "react";
 export default function Quote() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="relative mb-0 ">
+      <div className="relative">
         <img src="/images/quote-image1.jpg"></img>
         <div className="absolute top-3 left-3 right-0 px-4 py-2">
           <h1 className="md:text-6xl font-montserrat font-light text-[28px] text-black">

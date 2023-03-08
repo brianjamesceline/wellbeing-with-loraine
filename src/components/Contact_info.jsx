@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact_info() {
   return (
-    <section class="mt-14 bg-white dark:bg-gray-900">
+    <section class="mt-4 bg-white dark:bg-gray-900">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-jade">
           Contact Us

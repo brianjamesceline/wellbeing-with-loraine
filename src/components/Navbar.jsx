@@ -4,10 +4,10 @@ import { Navbar } from "flowbite-react";
 export default function Newbar() {
   return (
     <Navbar
-      className="fixed flex justify-center top-0 max-w-screen-xl mx-auto"
+      className="sticky w-full top-0 z-10 max-w-screen-xl mx-auto"
       fluid={true}
       rounded={true}
-      >
+    >
       <Navbar.Toggle />
       <Navbar.Brand className="pl-3 pr-3">
         <img src="/images/logo.jpg" className="mr-2 h-6 sm:h-9" alt="Logo" />

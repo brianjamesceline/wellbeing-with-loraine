@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <div className="mt-36">
+    <div className="mt-10">
       <div className="mr-5 ml-5 font-montserrat">
         <h1 className="text-jade text-4xl mb-3">How I Work</h1>
         <div>
