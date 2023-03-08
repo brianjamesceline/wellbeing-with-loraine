@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function HealthFood() {
   return (
@@ -18,7 +18,7 @@ export default function HealthFood() {
           consists of a delicious bowl of porridge. Healthy, nutritious and
           satisfying. Sets me up for the day ahead.
         </p>
-        <div className="ml-8 mr-8 text-center">
+        <div className="ml-0 mr-0 text-center">
           <p className="mb-2 font-montserrat font-black text-sm text-black">
             Some of the meals I make and love to eat on a daily basis:
           </p>
@@ -28,7 +28,7 @@ export default function HealthFood() {
 
               <ul className="list-none mb-2 font-montserrat text-sm">
                 <li className="underline underline-offset-2 font-bold text-black">
-                  Porridge
+                  Porridge for Breakfast
                 </li>
                 <li>Ingredients:</li>
                 <li>Gluten Free Porridge Oats</li>
@@ -66,8 +66,8 @@ export default function HealthFood() {
               <img className="mb-2" src="/images/Salmon.jpg" />
 
               <ul className="list-none mb-2 font-montserrat text-sm">
-                <li className="underline underline-offset-2 font-bold text-black">
-                  Baked Salmon with Avocado and Vegetables for Dinner
+                <li className="whitespace-normal underline underline-offset-2 font-bold text-black">
+                  Baked Salmon with Avocado for Dinner
                 </li>
                 <li>Ingredients:</li>
                 <li>Salmon Fillet baked with Benecol Butter,</li>

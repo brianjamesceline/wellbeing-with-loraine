@@ -5,12 +5,9 @@ export default function Corp_Consultancy() {
     <div className="max-w-screen-xl mx-auto">
       <div className="mr-5 ml-5 mt-10">
         <h1 className="text-jade text-4xl mb-5">Corporate Consultancy</h1>
-        <img
-          className="mb-3"
-          src="/images/corporate-consultancy.jpg"
-        />
+        <img className="mb-3" src="/images/corporate-consultancy.jpg" />
       </div>
-      <div className="ml-5 mr-5">
+      <div className="ml-10 mr-10">
         <p className="mb-5 font-montserrat font-light text-lg text-slate">
           At Wellness With Loraine we offer a corporate consultancy service for
           Health, Fitness and Wellbeing. This bespoke service is geared towards
@@ -21,7 +18,9 @@ export default function Corp_Consultancy() {
           not hesitate to contact us.
         </p>
         <div className=" text-slate text-sm text-center mb-10">
-          <img className="w-[700px] mb-5" src="/images/Jim-Rohn.jpg" />
+          <div className="flex justify-center">
+            <img className="w-[700px] mb-5" src="/images/Jim-Rohn.jpg" />
+          </div>
           <div className="">
             <p className="justify-center items-center text-lg pl-5 pr-5">
               "Motivation is what gets you started. Habit is what keeps you

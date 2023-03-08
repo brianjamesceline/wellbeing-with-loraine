@@ -4,13 +4,15 @@ export default function Work() {
   return (
     <div className="mt-10">
       <div className="mr-5 ml-5 font-montserrat">
-        <h1 className="text-jade text-4xl mb-3">How I Work</h1>
+        <h1 className="mb-3 text-jade text-4xl lg:text-5xl">How I Work</h1>
         <div>
-          <img className="mb-10" src="/images/How_I_Work.jpg" />
+          <img className="w-full mb-10" src="/images/How_I_Work.jpg" />
         </div>
-        <p className="text-black font-extrabold text-sm mb-2">Step 1.</p>
-        <div className="text-slate text-sm mb-5">
-          <p className="mb-3">BRIEFING/CONSULTATION:</p>
+        <p className="text-black font-extrabold text-sm md:text-lg mb-2">
+          Step 1.
+        </p>
+        <div className="text-slate text-sm md:text-lg mb-5">
+          <p className="mb-3 text-jade">BRIEFING/CONSULTATION:</p>
           <p className="mb-3">
             You need to be at a stage where you are ready to make a change in
             your life and willing to apply effort for yourself.
@@ -23,9 +25,11 @@ export default function Work() {
           </p>
         </div>
 
-        <p className="text-black font-extrabold text-sm mb-2">Step 2.</p>
-        <div className="text-slate text-sm mb-5">
-          <p className="mb-3">HEALTH & FITNESS/WELLBEING PROGRAMME:</p>
+        <p className="text-black font-extrabold text-sm md:text-lg mb-2">
+          Step 2.
+        </p>
+        <div className="text-slate text-sm md:text-lg mb-5">
+          <p className="mb-3 text-jade">HEALTH & FITNESS/WELLBEING PROGRAMME:</p>
           <p className="mb-3">
             I will tailor an exercise programme according to your needs and we
             will set and agree a date for this to commence. 45 minute exercise
@@ -36,9 +40,11 @@ export default function Work() {
           </p>
         </div>
 
-        <p className="text-black font-extrabold text-sm mb-2">Step 3.</p>
-        <div className="text-slate text-sm mb-5">
-          <p className="mb-3">PROGRESS:</p>
+        <p className="text-black font-extrabold text-sm md:text-lg mb-2">
+          Step 3.
+        </p>
+        <div className="text-slate text-sm md:text-lg mb-5">
+          <p className="mb-3 text-jade">PROGRESS:</p>
           <p className="mb-3">
             I will continue to monitor your development on a weekly basis so
             that we can focus on your successes, achievements and I will provide
@@ -46,9 +52,11 @@ export default function Work() {
           </p>
         </div>
 
-        <p className="text-black font-extrabold text-sm mb-2">Step 4.</p>
-        <div className="text-slate text-sm mb-0">
-          <p className="mb-3">COMPLETION:</p>
+        <p className="text-black font-extrabold text-sm md:text-lg mb-2">
+          Step 4.
+        </p>
+        <div className="text-slate text-sm md:text-lg mb-10">
+          <p className="mb-3 text-jade">COMPLETION:</p>
           <p className="">
             This stage is reached when you feel you are ready and confident to
             move forward happily, healthily and successfully with your personal
@@ -56,7 +64,7 @@ export default function Work() {
           </p>
         </div>
       </div>
-        <hr class="h-px my-4 dark:text-slate"></hr>
+      <hr class="h-px my-4 dark:text-slate"></hr>
     </div>
   );
 }

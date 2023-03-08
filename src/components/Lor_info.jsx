@@ -4,9 +4,9 @@ export default function Lor_info() {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
-        <h1 className=" text-jade text-4xl mb-10">About me...</h1>
+        <h1 className=" text-jade text-4xl mb-5">About me...</h1>
         <div className="">
-          <p className=" mt-5 mb-5">
+          <p className=" mt-2 mb-5">
             My name is Loraine, Health and Group Fitness Instructor and a
             Wellbeing Coach. I am passionate about helping my clients to get fit
             and healthy, so they look and feel great about themselves. I coach
@@ -16,8 +16,8 @@ export default function Lor_info() {
             healthy, happy, lifestyle and wellbeing; both personally and
             professionally.
           </p>
-          <div className="mb-5">
-            <img className="w-[700px]" src="/images/image_about.jpg" />
+          <div className="flex justify-center mb-5">
+            <img className="w-[350px]" src="/images/image_about.jpg" />
           </div>
         </div>
         <div className=" mb-2">
@@ -31,7 +31,7 @@ export default function Lor_info() {
           <p className="mb-3">
             I always wanted to be a Choreographer and loved Contemporary
             Dancing, Ballet and Tap. After attending numerous auditions, I began
-            to realise the competition was fierce and knew that I’d really need
+            to realise the competition was fierce and knew that I'd really need
             to train hard and up my game, just to be successful in an audition.
           </p>
 
@@ -46,13 +46,13 @@ export default function Lor_info() {
             My hobby during this time was attending evening Aerobic classes at
             my local church hall. I became hooked and found my passion in health
             and fitness. I absolutely loved the idea of working out to
-            choreographed dance moves with great music and the bonus was you’d
+            choreographed dance moves with great music and the bonus was you'd
             get fit at the same time! Most of all it was fun and I always felt
             amazing afterwards with my energy levels through the roof.
           </p>
 
           <p className="mb-3">
-            I thought to myself, I can do this and I just knew I’d be damn good
+            I thought to myself, I can do this and I just knew I'd be damn good
             at it, because I truly love music and I have the vision and
             creativity to plan and execute an excellent Aerobic class. I took a
             leap of faith, and enrolled on an Exercise and Health Studies one
@@ -73,7 +73,7 @@ export default function Lor_info() {
             <img className="w-[800px] " src="/images/quote_tree.jpg" />
           </div>
           <p className=" mb-3">
-            After my Father’s passing in 2015 and then my brother passed away
+            After my Father's passing in 2015 and then my brother passed away
             unexpectedly in 2019. My brother was my best friend, my soulmate. He
             took care of me after our Father passed. We helped each other
             through the sadness and pain. We understood each other, we knew what
@@ -106,7 +106,7 @@ export default function Lor_info() {
           <p className="mb-3">
             I love being in the company of like minded people, cooking, sharing
             good food, great conversation and a glass of Champagne. Life is for
-            living! I’m grateful that I can laugh again.
+            living! I'm grateful that I can laugh again.
           </p>
         </div>
       </div>

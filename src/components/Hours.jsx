@@ -41,9 +41,12 @@ export default function Hours() {
           <p class=" pb-2 font-semibold text-white uppercase underline">
             Contact
           </p>
+          <p class=" text-white">
+            Registered Office: 
+          </p>
           <p class=" mb-3 text-white">
-            167-169 Great Portland Street, 5th Floor, London W1W 5PF United
-            Kingdom.
+            167-169 Great Portland Street, 5th Floor, London
+            W1W 5PF United Kingdom.
           </p>
           <ul class="space-y-3 text-white">
             <li class="flex items-center">

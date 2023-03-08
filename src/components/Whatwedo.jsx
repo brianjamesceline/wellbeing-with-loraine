@@ -7,7 +7,7 @@ export default function Whatwedo() {
         <h2 className=" mb-2 text-4xl tracking-tight font-montserrat font-regular italic text-center">
           What we do?
         </h2>
-        <p className=" flex font-light text-slate sm:text-lg md:px-20 lg:px-28 xl:px-48 text-left">
+        <p className=" flex font-light text-slate sm:text-lg lg:text-2xl md:px-20 lg:px-28 xl:px-48 text-left">
           At Wellbeing with Loraine, we coach and inspire you to positively use
           your mindset, a growth mindset to help you achieve a lifestyle,
           whereby you prioritise yourself. We coach you to continuously feel

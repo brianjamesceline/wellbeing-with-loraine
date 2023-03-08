@@ -4,15 +4,16 @@ export default function Ind_Consultation() {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="ml-5 mr-5 mt-10">
-        <div className="">
-          <h1 className="text-jade text-4xl ml-5 mr-10 mb-5">
+        <div className="flex flex-wrap justify-evenly">
+          <h1 className="text-jade text-4xl mr-10 mb-5 lg:mt-48 xl:text-5xl">
             Individual Consultation
           </h1>
           <img
-            className="w-[350px] mb-3"
+            className="w-[400px] mb-3"
             src="/images/ind-consultation-lg.jpg"
           />
         </div>
+
         <div className="text-slate text-lg mb-5">
           <p className="mb-2">
             As a Wellbeing Coach I coach and inspire you to positively use your
@@ -39,7 +40,9 @@ export default function Ind_Consultation() {
           </p>
         </div>
         <div className=" text-slate text-sm text-center mb-5">
-          <img className=" w-[700px] mb-0" src="/images/quote-mirror.jpg" />
+          <div className="flex justify-center mb-5">
+            <img className="w-[700px] mb-0" src="/images/quote-mirror.jpg" />
+          </div>
           <p className="text-lg">
             "Look in the mirror that's your competition"
           </p>
