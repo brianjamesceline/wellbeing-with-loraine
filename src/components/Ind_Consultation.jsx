@@ -2,10 +2,18 @@ import React from "react";
 
 export default function Ind_Consultation() {
   return (
-    <div>
-      <div className="ml-10 mr-10 mt-28">
-        <h1 className="text-jade text-4xl mb-5">Individual Consultation</h1>
-        <div className="text-slate text-sm mb-5">
+    <div className="max-w-screen-xl mx-auto">
+      <div className="ml-5 mr-5 mt-28">
+        <div className="flex">
+          <h1 className="text-jade text-4xl ml-5 mt-40 mr-10 mb-10">
+            Individual Consultation
+          </h1>
+          <img
+            className="w-[350px] mb-3"
+            src="/images/ind-consultation-lg.jpg"
+          />
+        </div>
+        <div className="text-slate text-lg mb-5">
           <p className="mb-2">
             As a Wellbeing Coach I coach and inspire you to positively use your
             mindset, a growth mindset to help you achieve a lifestyle, whereby
@@ -13,15 +21,12 @@ export default function Ind_Consultation() {
             experience happiness in your work environment including outside of
             work and successfully manage your emotions at the same time.
           </p>
-          <p className="mb-2">
+          <p className="mb-5">
             Together we set your health, fitness and wellbeing goals using
             self-motivation and inspired motivation. Identifying where you’re
             at, where you want to go and how do you want to get there.
           </p>
-          <img
-            className="w-[700px] mb-3"
-            src="/images/ind-consultation-lg.jpg"
-          />
+
           <p className="mb-10">
             I encourage you to be dedicated to yourself and be disciplined with
             your goals whilst allowing yourself to celebrate joys along the way.
@@ -33,8 +38,8 @@ export default function Ind_Consultation() {
             health.
           </p>
         </div>
-        <div className="text-slate text-sm text-center mb-5">
-          <img className="w-[700px] mb-0" src="/images/quote-mirror.jpg" />
+        <div className=" text-slate text-sm text-center mb-5">
+          <img className=" w-[700px] mb-0" src="/images/quote-mirror.jpg" />
           <p>"Look in the mirror that's your competition"</p>
           <p className="text-jade text-[12px]">John Assaraf</p>
         </div>

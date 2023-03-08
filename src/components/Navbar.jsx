@@ -4,7 +4,7 @@ import { Navbar } from "flowbite-react";
 export default function Newbar() {
   return (
     <Navbar
-      className="fixed top-0 w-full max-w-screen-xl mx-auto"
+      className="fixed flex justify-center top-0 max-w-screen-xl mx-auto"
       fluid={true}
       rounded={true}
       >

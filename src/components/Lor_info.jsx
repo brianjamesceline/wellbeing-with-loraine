@@ -3,22 +3,25 @@ import React from "react";
 export default function Lor_info() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="ml-10 mr-10 mt-28">
-        <h1 className=" text-jade text-4xl ">About me...</h1>
-        <p className=" mt-5 mb-2 font-montserrat font-light text-sm text-slate">
-          My name is Loraine, Health and Group Fitness Instructor and a
-          Wellbeing Coach. I am passionate about helping my clients to get fit
-          and healthy, so they look and feel great about themselves. I coach
-          clients to make the necessary changes they need to enhance their
-          wellbeing. Empowering them to feel confident in transitioning through
-          these changes whilst assisting them to successfully create a healthy,
-          happy, lifestyle and wellbeing; both personally and professionally.
-        </p>
-        <div className="mb-2">
-          <img className="w-[700px]" src="/images/image_about.jpg" />
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-28">
+        <h1 className=" text-jade text-4xl mb-10">About me...</h1>
+        <div className="">
+          <p className=" mt-5 mb-5">
+            My name is Loraine, Health and Group Fitness Instructor and a
+            Wellbeing Coach. I am passionate about helping my clients to get fit
+            and healthy, so they look and feel great about themselves. I coach
+            clients to make the necessary changes they need to enhance their
+            wellbeing. Empowering them to feel confident in transitioning
+            through these changes whilst assisting them to successfully create a
+            healthy, happy, lifestyle and wellbeing; both personally and
+            professionally.
+          </p>
+          <div className="mb-5">
+            <img className="w-[700px]" src="/images/image_about.jpg" />
+          </div>
         </div>
-        <div className=" mb-2 font-montserrat font-light text-sm text-slate">
-          <p className="mb-3">
+        <div className=" mb-2">
+          <p className="mb-2">
             Sessions with my clients are based on trust, listening,
             understanding and offering a comfortable environment to encourage
             you to openly bring your thoughts, feelings and challenges into the
@@ -58,7 +61,7 @@ export default function Lor_info() {
             Exercise To Music from the Physical Education Association.
           </p>
 
-          <p className="mb-3">
+          <p className="mb-5">
             I gave my notice at the bank and became a Freelance Group Exercise
             Instructor. Whilst this was a risk to go from a job that paid me a
             set wage every month to being self employed, I felt a sense of
@@ -66,10 +69,10 @@ export default function Lor_info() {
             fire continues to burn bright and I still love helping clients get
             fit and healthy.
           </p>
-          <div className="mb-10">
-            <img className="w-[700px]" src="/images/quote_tree.jpg" />
+          <div className="flex justify-center mb-5">
+            <img className="w-[800px] " src="/images/quote_tree.jpg" />
           </div>
-          <p className="mb-3">
+          <p className=" mb-3">
             After my Father’s passing in 2015 and then my brother passed away
             unexpectedly in 2019. My brother was my best friend, my soulmate. He
             took care of me after our Father passed. We helped each other

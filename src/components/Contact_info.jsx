@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact_info() {
   return (
-    <section class="bg-white dark:bg-gray-900">
+    <section class="mt-14 bg-white dark:bg-gray-900">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-jade">
           Contact Us
@@ -85,17 +85,17 @@ export default function Contact_info() {
           </div>
           <button
             type="submit"
-            class="bg-jade py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class=" bg-jade py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             Send message
           </button>
         </form>
       </div>
       <div className="map-container flex justify-center ">
-        <iframe className="ml-3 mr-3 mb-5"
+        <iframe className="ml-3 mr-3 mb-10"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9930.175528865513!2d-0.15227615231799313!3d51.521583525620045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad660946017%3A0x20166fe43e52b29a!2s163-169%20Great%20Portland%20St%2C%20London%20W1W%205PD!5e0!3m2!1sen!2suk!4v1676931972616!5m2!1sen!2suk"
-          width="350"
-          height="450"
+          width="450"
+          height="500"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

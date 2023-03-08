@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <div>
-      <div className="mt-5 mr-5 ml-5 font-montserrat">
+    <div className="mt-36">
+      <div className="mr-5 ml-5 font-montserrat">
         <h1 className="text-jade text-4xl mb-3">How I Work</h1>
         <div>
           <img className="mb-10" src="/images/How_I_Work.jpg" />
@@ -56,7 +56,7 @@ export default function Work() {
           </p>
         </div>
       </div>
-        <hr class="h-px my-8 dark:text-slate"></hr>
+        <hr class="h-px my-4 dark:text-slate"></hr>
     </div>
   );
 }
