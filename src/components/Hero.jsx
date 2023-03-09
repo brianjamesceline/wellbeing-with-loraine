@@ -8,16 +8,26 @@ export default function Herofront() {
           <div className="flex justify-end">
             <img className="" src="/images/image_loraine.jpg" />
           </div>
-          <div className="transform -translate-y-60 lg:-translate-y-96 lg:translate-x-20">
-            <li className="list-none uppercase pl-6 text-[20px] md:text-[40px] lg:text-[50px] xl:text-[60px] font-montserrat xl:font-bold text-jade ">
+          <div className="transform -translate-y-60 md:-translate-y-96 lg:-translate-y-[25rem] lg:translate-x-20 xl:-translate-y-[30rem]">
+            <p className="uppercase pl-6 text-[18px] md:text-[26px] lg:text-[40px] xl:text-[40px] font-montserrat text-jade">
               Wellbeing with
-            </li>
-            <li className="font-cinzel-decorative uppercase list-none pl-6 text-[30px] md:text-[40px] lg:text-[50px] xl:text-[60px] xl:font-bold text-jade">
-              Loraine
-            </li>
+            </p>
+            <div className="">
+              <p className="font-charmonman uppercase pl-6 text-[50px] md:text-[60px] lg:text-[80px] xl:text-[120px] text-jade">
+                Loraine
+              </p>
+              <div className="pl-6">
+                <p className="text-[12px] md:text-[18px] xl:translate-x-32 text-slate font-montserrat">
+                  Certified Wellbeing Coach and
+                </p>
+                <p className="text-[12px] md:text-[18px] xl:translate-x-36 pl-5 text-slate font-montserrat">
+                  Health Fitness Instructor
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="flex justify-end -translate-y-16 mr-5 md:-translate-y-24 xl:-translate-y-24">
+        <div className="flex justify-end -translate-y-28 mr-5 md:-translate-y-36 lg:-translate-y-48 xl:-translate-y-60">
           <button
             type="button"
             class="mb-8 text-jade bg-white border border-jade font-montserrat rounded-lg text-[18px] px-5 py-2.5"

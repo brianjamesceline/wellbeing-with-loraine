@@ -17,16 +17,35 @@ export default function Newbar() {
       </Navbar.Brand>
 
       <Navbar.Collapse className="pr-10 text-[17px] font-montserrat font-extrabold">
-        <Navbar.Link href="/" active={true}>
+        <Navbar.Link
+          href="/"
+          active={true}
+          className="active-link"
+          style={{ backgroundColor: "#55BD92" }}
+        >
           Home
         </Navbar.Link>
-        <Navbar.Link href="/About">About</Navbar.Link>
-        <Navbar.Link href="/Individual">Individual</Navbar.Link>
-        <Navbar.Link href="/Corporate">Corporate</Navbar.Link>
-        <Navbar.Link href="/Health&Fitness">Health & Fitness</Navbar.Link>
-        <Navbar.Link href="/HowIWork">How I Work</Navbar.Link>
-        <Navbar.Link href="/Testimonials">Testimonials</Navbar.Link>
-        <Navbar.Link href="/Contact">Contact</Navbar.Link>
+        <Navbar.Link href="/About" className="inactive-link">
+          About
+        </Navbar.Link>
+        <Navbar.Link href="/Individual" className="inactive-link">
+          Individual
+        </Navbar.Link>
+        <Navbar.Link href="/Corporate" className="inactive-link">
+          Corporate
+        </Navbar.Link>
+        <Navbar.Link href="/Health&Fitness" className="inactive-link">
+          Health & Fitness
+        </Navbar.Link>
+        <Navbar.Link href="/HowIWork" className="inactive-link">
+          How I Work
+        </Navbar.Link>
+        <Navbar.Link href="/Testimonials" className="inactive-link">
+          Testimonials
+        </Navbar.Link>
+        <Navbar.Link href="/Contact" className="inactive-link">
+          Contact
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
