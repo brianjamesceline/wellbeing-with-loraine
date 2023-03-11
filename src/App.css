@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    font-family: ['Cinzel', 'serif'];
+    font-family: [ "Cinzel", "serif" ];
     font-family: "Cinzel Decorative", cursive;
     font-family: "Montserrat", sans-serif;
   }

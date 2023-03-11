@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <div className="mt-10">
+    <div className="mx-auto max-w-screen-xl mt-10">
       <div className="mr-5 ml-5 font-montserrat">
         <h1 className="mb-3 text-jade text-4xl lg:text-5xl">How I Work</h1>
         <div>
@@ -29,7 +29,9 @@ export default function Work() {
           Step 2.
         </p>
         <div className="text-slate text-sm md:text-lg mb-5">
-          <p className="mb-3 text-jade">HEALTH & FITNESS/WELLBEING PROGRAMME:</p>
+          <p className="mb-3 text-jade">
+            HEALTH & FITNESS/WELLBEING PROGRAMME:
+          </p>
           <p className="mb-3">
             I will tailor an exercise programme according to your needs and we
             will set and agree a date for this to commence. 45 minute exercise
