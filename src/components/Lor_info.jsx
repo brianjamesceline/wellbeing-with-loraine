@@ -4,7 +4,7 @@ export default function Lor_info() {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
-        <h1 className=" text-jade text-4xl mb-5">About me...</h1>
+        <h1 className=" text-jade text-4xl xl:text-5xl mb-5">About me...</h1>
         <div className="">
           <p className=" mt-2 mb-5">
             My name is Loraine, Health and Group Fitness Instructor and a

@@ -3,9 +3,9 @@ import React from "react";
 export default function Ind_Consultation() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="ml-5 mr-5 mt-10">
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
         <div className="flex flex-wrap justify-evenly">
-          <h1 className="text-jade text-4xl mr-10 mb-5 lg:mt-48 xl:text-5xl">
+          <h1 className="text-jade mr-10 mb-5 lg:mt-48 text-4xl xl:text-5xl">
             Individual Consultation
           </h1>
           <img

@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 export default function Corp_Consultancy() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="mr-5 ml-5 mt-10">
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
         <h1 className="text-jade text-4xl mb-5">Corporate Consultancy</h1>
         <img className="mb-3" src="/images/corporate-consultancy.jpg" />
       </div>
-      <div className="ml-10 mr-10">
+      <div className="ml-5 mr-5">
         <p className="mb-5 font-montserrat font-light text-lg text-slate">
           At Wellness With Loraine we offer a corporate consultancy service for
           Health, Fitness and Wellbeing. This bespoke service is geared towards
@@ -27,7 +27,7 @@ export default function Corp_Consultancy() {
               going."
             </p>
 
-            <p className=" text-jade text-[12px]">Jim Rohn</p>
+            <p className=" text-jade text-[14px]">Jim Rohn</p>
           </div>
         </div>
       </div>

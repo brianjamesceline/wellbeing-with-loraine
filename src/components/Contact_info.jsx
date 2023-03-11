@@ -4,7 +4,7 @@ export default function Contact_info() {
   return (
     <section class="mt-4 bg-white dark:bg-gray-900">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-jade">
+        <h2 class="mb-4 text-4xl tracking-tight font-montserrat font-light text-jade">
           Contact Us
         </h2>
         <form action="#" class="space-y-8">
@@ -92,7 +92,8 @@ export default function Contact_info() {
         </form>
       </div>
       <div className="map-container flex justify-center ">
-        <iframe className="ml-3 mr-3 mb-10"
+        <iframe
+          className="ml-3 mr-3 mb-10"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9930.175528865513!2d-0.15227615231799313!3d51.521583525620045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad660946017%3A0x20166fe43e52b29a!2s163-169%20Great%20Portland%20St%2C%20London%20W1W%205PD!5e0!3m2!1sen!2suk!4v1676931972616!5m2!1sen!2suk"
           width="450"
           height="500"

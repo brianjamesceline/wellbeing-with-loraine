@@ -3,7 +3,7 @@ import React from 'react'
 export default function Work() {
   return (
     <div className="mx-auto max-w-screen-xl mt-10">
-      <div className="mr-5 ml-5 font-montserrat">
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
         <h1 className="mb-3 text-jade text-4xl lg:text-5xl">How I Work</h1>
         <div>
           <img className="w-full mb-10" src="/images/How_I_Work.jpg" />

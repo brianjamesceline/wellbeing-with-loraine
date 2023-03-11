@@ -3,7 +3,7 @@ import React from "react";
 export default function HealthFood() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="mt-10 mr-5 ml-5">
+      <div className="font-montserrat font-light text-lg text-slate ml-5 mr-5 mt-8">
         <h1 className="text-jade text-4xl mb-5">Health & Fitness</h1>
         <p className="mb-5 font-montserrat font-light text-lg text-slate">
           I exercise five days a week. I complete a 8-10k power walk and morning
@@ -19,7 +19,7 @@ export default function HealthFood() {
           satisfying. Sets me up for the day ahead.
         </p>
         <div className="ml-0 mr-0 text-center">
-          <p className="mb-2 font-montserrat font-black text-sm text-black">
+          <p className="mb-4 font-montserrat text-md text-black">
             Some of the meals I make and love to eat on a daily basis:
           </p>
           <div className="flex flex-wrap justify-evenly">
