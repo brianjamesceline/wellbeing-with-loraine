@@ -11,15 +11,16 @@ export default function Herofront() {
           <p className="uppercase pl-6 text-[18px] md:text-[26px] lg:text-[40px] xl:text-[40px] font-montserrat font-light text-jade">
             Wellbeing with
           </p>
-          <div className="">
-            <p className="font-charmonman uppercase pl-6 text-[50px] md:text-[60px] lg:text-[80px] xl:text-[120px] text-jade">
-              Loraine
-            </p>
-            <div className="pl-6">
-              <p className="text-[12px] md:text-[18px] xl:translate-x-32 text-slate font-montserrat">
+          <div className="w-[600px]">
+            <img
+              className="pl-6 w-[300px] md:w-[400px] lg:w-[450px]"
+              src="/images/Loraine.png"
+            />
+            <div className="pl-20 pt-2">
+              <p className="text-[12px] md:text-[16px] xl:translate-x-32 text-slate font-montserrat">
                 Certified Wellbeing Coach and
               </p>
-              <p className="text-[12px] md:text-[18px] xl:translate-x-36 pl-5 text-slate font-montserrat">
+              <p className="text-[12px] md:text-[16px] xl:translate-x-36 pl-5 text-slate font-montserrat">
                 Health Fitness Instructor
               </p>
             </div>

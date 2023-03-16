@@ -5,22 +5,22 @@ export default function Mindset() {
     <div className="max-w-screen-xl mx-auto mb-20 pl-3 pr-3">
       <div className="">
         <div className="font-montserrat text-[18px] lg:text-[20px]">
-          <h1 className="text-left text-red font-normal pt-10 underline">
+          <h1 className="text-left text-jade font-normal pt-10 underline">
             Mindset
           </h1>
-          <p className="text-left text-black font-thin">
+          <p className="mb-5 text-left text-black font-thin">
             Helping you to shift your mindset, whilst acknowledging and paying
             attention to your thoughts and feelings.
           </p>
         </div>
-        <div>
-          <center>
-            <img className="mw-[500px] h-auto" src="/images/steps.jpg" />
+        <div className="">
+          <center className="justify-center mb-5">
+            <img className="w-[900px]" src="/images/steps.jpg" />
           </center>
         </div>
         <div>
           <div className="font-montserrat text-[18px] lg:text-[20px]">
-            <h1 className="text-left text-red font-normal pt-5 underline">
+            <h1 className="text-left text-jade font-normal pt-5 underline">
               BIG: Believe Imagination Growth
             </h1>
             <p className="text-left text-black font-thin">
@@ -33,7 +33,7 @@ export default function Mindset() {
           </div>
         </div>
         <div className="font-montserrat text-[18px] lg:text-[20px]">
-          <h1 className="text-left text-red font-normal pt-5 underline">
+          <h1 className="text-left text-jade font-normal pt-5 underline">
             Release
           </h1>
           <p className="text-left text-black font-thin">
@@ -45,7 +45,7 @@ export default function Mindset() {
           </p>
         </div>
         <div className="font-montserrat text-[18px] lg:text-[20px]">
-          <h1 className="text-left text-red font-normal pt-5 underline">
+          <h1 className="text-left text-jade font-normal pt-5 underline">
             Intention
           </h1>
           <p className="text-left text-black font-thin">
@@ -55,7 +55,7 @@ export default function Mindset() {
           </p>
         </div>
         <div className="font-montserrat text-[18px] lg:text-[20px]">
-          <h1 className="text-left text-red font-normal pt-5 underline">
+          <h1 className="text-left text-jade font-normal pt-5 underline">
             Ownership
           </h1>
           <p className="text-left text-black font-thin pb-5">
