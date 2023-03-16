@@ -27,14 +27,14 @@ export default function Herofront() {
           </div>
         </div>
       </div>
-      <div className="flex justify-end -translate-y-28 mr-5 md:-translate-y-36 lg:-translate-y-48 xl:-translate-y-60">
+      {/* <div className="flex justify-end -translate-y-28 mr-5 md:-translate-y-36 lg:-translate-y-48 xl:-translate-y-60">
         <button
           type="button"
-          class="mb-0 text-jade bg-white border border-jade font-montserrat rounded-lg text-[18px] px-5 py-2.5"
+          class="text-jade bg-white border border-jade font-montserrat rounded-lg text-[18px] px-5 py-2.5"
         >
           Schedule a Call
         </button>
-      </div>
+      </div> */}
     </>
   );
 }

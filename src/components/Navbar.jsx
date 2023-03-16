@@ -17,7 +17,7 @@ export default function Newbar() {
         </span>
       </Navbar.Brand>
 
-      <Navbar.Collapse className="pr-10 text-[17px] font-montserrat font-extrabold">
+      <Navbar.Collapse className="pr-10 text-[18px] font-montserrat font-extrabold">
         <Navbar.Link
           href="/"
           active={true}
