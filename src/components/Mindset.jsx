@@ -15,7 +15,7 @@ export default function Mindset() {
         </div>
         <div className="">
           <center className="justify-center mb-5">
-            <img className="w-[900px]" src="/images/steps.jpg" />
+            <img className="w-[900px]" src="/images/steps.png" />
           </center>
         </div>
         <div>

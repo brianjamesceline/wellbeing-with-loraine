@@ -5,7 +5,7 @@ export default function Whatwedo() {
     <div className="mx-auto max-w-screen-xl sm:text-center">
       <h2 className=" mb-2 text-4xl text-slate text-center font-montserrat font-regular italic ">
         What we do?
-      </h2>
+      </h2> 
       <p className="flex text-left pl-5 pr-5 font-light text-slate sm:text-lg lg:text-2xl ">
         At Wellbeing with Loraine, we coach and inspire you to positively use
         your mindset, a growth mindset to help you achieve a lifestyle, whereby
@@ -17,7 +17,7 @@ export default function Whatwedo() {
         <center>
           <img
             className="col-span-1 mt-6 mb-2 rounded-lg"
-            src="/images/ind-consultation.jpg"
+            src="/images/square_ind_consultation.jpg"
             alt="content gallery 1"
           />
           <>INDIVIDUAL CONSULTANCY</>
@@ -25,7 +25,7 @@ export default function Whatwedo() {
         <center>
           <img
             className="col-span-2 mb-2 mt-6 sm:block rounded-lg border border-slate-80"
-            src="/images/corporate.jpg"
+            src="/images/square_corporate.jpg"
             alt="content gallery 2"
           />
           <>CORPORATE</>
@@ -33,7 +33,7 @@ export default function Whatwedo() {
         <center>
           <img
             className="col-span-3 mb-2 mt-6 sm:block rounded-lg"
-            src="/images/tailored-programmes.jpg"
+            src="/images/square_tailored_programmes.jpg"
             alt="content gallery 3"
           />
           <>BESPOKE PROGRAMMES</>
@@ -41,7 +41,7 @@ export default function Whatwedo() {
         <center>
           <img
             className="col-span-4 mb-2 mt-6 sm:block rounded-lg"
-            src="images/wellbeing-days.jpg"
+            src="images/square_wellbeing_days.jpg"
             alt="content gallery 4"
           />
           <>WELLBEING DAYS</>

@@ -21,7 +21,7 @@ export default function Success() {
           </div>
           <div className="">
             <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
-              Andy Crotty
+              Andy C.
             </h2>
             <p class="text-xs font-normal text-jade">
               Joint Managing Director (OTD Limited)
@@ -44,7 +44,7 @@ export default function Success() {
           </div>
           <div className="">
             <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
-              Becky Farnworth
+              Becky F.
             </h2>
             <p class="text-xs font-normal text-jade">
               Head of Operations (OTD Limited)
@@ -65,7 +65,29 @@ export default function Success() {
           </div>
           <div className="">
             <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
-              Hayley Rock
+              Hayley R.
+            </h2>
+            <p class="text-xs font-normal text-jade">
+              Customer Experience Coordinator
+            </p>
+            <p class="text-xs font-normal text-jade">at OTD Ltd</p>
+          </div>
+        </div>
+        <div className="box-content h-[320px] w-[250px] border border-emerald-500 mb-5 pl-3 pt-0 pr-3 pb-0 rounded-lg">
+          <div>
+            <img className="pt-3 pb-3" src="/images/Apostrophe1.jpg" />
+          </div>
+          <p className="font-montserrat font-light text-[13px] text-left pb-4 text-slate">
+            The session was absolutely fantastic and engaging. I felt very
+            motivated and empowered by the training and would like to see more
+            to encourage this. Thank you for an amazing session Loraine!
+          </p>
+          <div className="flex justify-end">
+            <img className="pt-0 pb-10" src="/images/Apostrophe2.jpg" />
+          </div>
+          <div className="">
+            <h2 class="text-sm font-medium text-gray-800 dark:text-white ">
+              Hayley R.
             </h2>
             <p class="text-xs font-normal text-jade">
               Customer Experience Coordinator
